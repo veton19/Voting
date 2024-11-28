@@ -1,6 +1,7 @@
 <?php
 include 'Database.php';
 include 'Admin.php';
+include 'submit_vote';
 
 $db = (new Database())->connect();
 $admin = new Admin($db);
